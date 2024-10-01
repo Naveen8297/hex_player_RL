@@ -14,7 +14,7 @@ This project implements a text-based version of the **Hex** board game, where a 
 
 ### Files:
 - **hex_skeleton.py**: Contains the `HexBoard` class, which handles the core mechanics of the Hex game, including move validation, board representation, and win condition checking.
-- **main.py**: The main game logic, where the human player interacts with the game, and the computer agent makes decisions based on Alpha-Beta pruning.
+- **main.py**: The main game logic (**search.py**), where the human player interacts with the game, and the computer agent makes decisions based on Alpha-Beta pruning.
 
 ### Key Functions:
 - **getMoves(board)**: Returns all available moves on the current board.
